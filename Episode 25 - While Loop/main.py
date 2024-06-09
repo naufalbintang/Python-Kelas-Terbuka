@@ -1,4 +1,4 @@
-# while loop
+## while loop
 
 angka = 0
 print(f"Angka sekarang -> {angka}")
