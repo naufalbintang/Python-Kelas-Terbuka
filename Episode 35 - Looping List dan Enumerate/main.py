@@ -39,6 +39,5 @@ print(angka_kuadrat)
 # enumerate
 print("\nenumerate")
 data_list = ["ucup", 1, 2, 3, "otong"]
-
 for index, data in enumerate(data_list):
     print(f"index = {index}, data = {data}")
