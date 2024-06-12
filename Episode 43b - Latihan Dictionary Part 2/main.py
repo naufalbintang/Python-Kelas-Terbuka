@@ -33,7 +33,7 @@ while True:
     KEY = ''.join((random.choice(string.ascii_uppercase) for i in range(6)))
     data_mahasiswa.update({KEY:mahasiswa})
     
-    print(f"{'KEY':<6} {'Nama':<17} {'SKS':<3} {'Beasiswa':<9} {'Lahir':<10}")
+    print(f"{'KEY':<6} {'Nama':<17} {'SKS':<3} {'Lahir':<10}")
     print('-'*50)
     
     for mahasiswa in data_mahasiswa:
