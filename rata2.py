@@ -13,6 +13,7 @@ daftar_nilai = {
 os.system('cls')
 print(f'{'RATA - RATA NILAI UTBK':^24}')
 print('='*24)
+
 for key in daftar_nilai:
     nilai = daftar_nilai[key]
     print(f'{key}\t\t= {nilai}')
