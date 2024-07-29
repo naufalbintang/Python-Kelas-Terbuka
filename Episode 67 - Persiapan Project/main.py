@@ -2,69 +2,36 @@ import os
 import CRUD as CRUD
 
 if __name__ == '__main__':
-    sistem_operasi: str = os.name
+    sistem_operasi = os.name
     
-        
+    
     while True:
         match sistem_operasi:
             case 'posix': os.system('clear')
             case 'nt': os.system('cls')
-
-        print('SELAMAT DATANG DI PROGRAM\nDATABASE PERPUSTAKAAN')
-        print('=========================')
+    
+        print('SELAMAT DATANG DI PROGRAM')
+        print('DATABASE PERPUSTAKAAN')
+        print('=' * len('SELAMAT DATANG DI PROGRAM'))
         
-        print(f'1. Read Data')
-        print(f'2. Create Data')
-        print(f'3. Update Data')
-        print(f'4. Delete Data\n')
+        print('1. Read Data')
+        print('2. Create Data')
+        print('3. Update Data')
+        print('4. Delete Data\n')
         
-        user_option: int = input('Masukkan opsi: ')
+        user_option = input('Masukkan opsi: ')
+        print(f'\n{'=' * len('SELAMAT DATANG DI PROGRAM')}\n')
         
-        print('\n===============================\n')
-
         match user_option:
-            case '1': print('Read Data')
-            case '2': print('Write Data')
-            case '3': print('Update Data')
-            case '4': print('Delete Data')
+            case '1': print('read data')
+            case '2': print('create data')
+            case '3': print('update data')
+            case '4': print('delete data')
+            
+        print(f'\n{'=' * len('SELAMAT DATANG DI PROGRAM')}\n')
         
-        print('\n===============================\n')
-        is_done: str = input('Apakah sudah selesai (y/n)? ')
-        if is_done.lower() == 'y':
+        is_done = input('Apakah sudah selesai (y/n)? ')
+        if is_done == 'y':
             break
-
-    print('Program selesai.')
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+    print('program berakhir, terimakasih kakaa')
