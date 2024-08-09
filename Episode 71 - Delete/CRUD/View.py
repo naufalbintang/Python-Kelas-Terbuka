@@ -16,7 +16,7 @@ def delete_console():
             tahun = data_break[4][:-1]
         
         
-            # data yang ingin diupdate
+            # data yang ingin dihapus
             print('\n' + '=' * 100)
             print('Data yang ingin anda hapus')
             print(f'1. Penulis\t: {penulis:.40}')
